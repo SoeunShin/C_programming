@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-
+ 
 int main() {
   float x1, x2;   // x좌표 값
   float y1, y2;   // y좌표 값

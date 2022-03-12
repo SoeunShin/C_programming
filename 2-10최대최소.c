@@ -24,4 +24,4 @@ int main(void) {
   else if(num3 >= num1 && num1 >= num2) printf("가장 큰 수는 %d이고, 가장 작은 수는 %d입니다.\n", num3, num2);
   else printf("가장 큰 수는 %d이고, 가장 작은 수는 %d입니다.\n", num3, num1);
   return 0;
-}
+} 

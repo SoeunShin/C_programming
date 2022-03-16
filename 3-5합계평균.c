@@ -26,4 +26,4 @@ int main(void) {
   printf("입력한 %d개의 숫자들의 총합계는 %d이고, 평균 값은 %.1f 입니다.\n", count, totalsum, average);
   
   return 0;
-} 
+}

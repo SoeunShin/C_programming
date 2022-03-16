@@ -23,4 +23,4 @@ int main(void) {
     printf("1부터 입력한 숫자까지의 모든 정수를 더한 값은 %d 입니다.\n", totalsum);
   }
   return 0;
-}
+} 

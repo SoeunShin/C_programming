@@ -23,5 +23,5 @@ int main(void) {
       printf("\n");
     if(i < 8) printf("\n");
   }
-  return 0;
+  return 0; 
 }

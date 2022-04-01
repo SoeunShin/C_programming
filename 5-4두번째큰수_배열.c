@@ -27,4 +27,4 @@ int main(void) {
   }
   printf("두번째로 큰 수는 %d번째 수 %d입니다.\n", second_max_index, second);
   return 0;
-}
+} 

@@ -27,4 +27,4 @@ int main(void) {
   average = total/8;
   printf("가장 큰 점수와 가장 작은 점수를 제외한 8개의 점수에 대한 평균은 %.1f입니다.\n", average);
   return 0;
-}
+} 

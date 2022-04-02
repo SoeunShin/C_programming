@@ -35,5 +35,5 @@ int main(void) {
   for(i=0; i<10; i++){
     printf("%d번째 숫자는 %d입니다.\n", i+1, number[i]);
   }
-  return 0;
+  return 0; 
 }

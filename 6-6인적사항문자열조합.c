@@ -42,5 +42,5 @@ int main(void){
   strcat(result, lastname);
   
   printf("결과 : %s\n", result);
-  return 0;
+  return 0; 
 }

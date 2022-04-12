@@ -46,5 +46,6 @@ int main(void) {
     }
   }
   printf("%d major found\n", cnt);
+  
   return 0;
 }

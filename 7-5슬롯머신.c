@@ -54,5 +54,5 @@ int main(void) {
     printf("남아있는 코인은 %d개입니다.\n", coins);
   }
   printf("\n게임 종료!!\n");
-  return 0;
+  return 0; 
 }

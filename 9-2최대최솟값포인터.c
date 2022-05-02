@@ -7,7 +7,7 @@
       2-1-1. max 변경
     2-2. min보다 작으면
       2-2-1. min 변경
-*/
+*/ 
 void maxMinOfTen(int number[10], int* max, int* min);
 
 int main(void) { 

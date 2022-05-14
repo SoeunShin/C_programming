@@ -40,5 +40,5 @@ void reverseString(char* str){
     *left = *right;
     *right = tmp;
     left++, right--;
-  }
+  } 
 }

@@ -67,6 +67,6 @@ int which_first(char * str1, char * str2){
     else{
       str1++, str2++; // 다음 문자로 이동 
     }
-  }
+  } 
   return first; // 1 또는 2 리턴 
 }

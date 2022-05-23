@@ -20,6 +20,7 @@ int main(void) {
     bmi = weight / (height*0.01*height*0.01);
     if(bmi >= 25) count++;
   }
+  fclose(file);
   printf("비만인 사람은 %d명입니다.\n", count);
   return 0;
 }

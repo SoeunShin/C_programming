@@ -18,7 +18,8 @@ int main(void) {
     if(temp <= 0) break;
     n++;
   }
-  
+  fclose(file);
+	
   printf("%d records read.\n", n);
   for(int i=0; i<n; i++){
     sum[i] = score[0][i] + score[1][i] + score[2][i];

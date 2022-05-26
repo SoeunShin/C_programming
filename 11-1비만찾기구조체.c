@@ -27,6 +27,7 @@ int main(void) {
     if(student[i].bmi_index >= 3) cnt++;
   }
   printf("비만인 사람은 %d명입니다.\n", cnt);
+  
   return 0;
 }
 

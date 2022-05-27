@@ -23,6 +23,7 @@ int main(void) {
     printf("%d %s %s\n", i+1, user[i].userid, user[i].userpw);
     fprintf(file, "%s %s\n", user[i].userid, user[i].userpw);
   }
+  fclose(file);
   printf("user.txt에 저장함\n");
 	return 0;
 }

@@ -12,7 +12,7 @@ int main(void) {
   int i;
   struct st_user user[10];
   
-	for(i=0; i<10; i++){
+  for(i=0; i<10; i++){
     fscanf(file, "%s %s", user[i].userid, user[i].userpw);
   }
   fclose(file);
@@ -22,5 +22,5 @@ int main(void) {
   for(i=0; i<10; i++){
     printf("%-3d%-5s%s\n", i+1, user[i].userid, user[i].userpw);
   }
-	return 0;
+  return 0;
 }

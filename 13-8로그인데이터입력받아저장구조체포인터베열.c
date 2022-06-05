@@ -36,10 +36,6 @@ struct st_user* getUser(){
       printf("-> 4글자 이상 입력할 것\n");
     else break;
   }
-  strncat(u->userpw, tmp, 2);
-  for(int i=0; i<strlen(tmp)-2; i++){
-    strcat(u->userpw, "*");
-  }
   return u;
 }
 
